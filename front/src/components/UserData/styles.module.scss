@@ -1,0 +1,24 @@
+.user-data {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  & > img {
+    width: 200px;
+    border-radius: 50%;
+    height: 200px;
+    object-fit: cover;
+  }
+  &__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  &__btn-container {
+    max-width: 432px;
+  }
+  :global(.btn) {
+    margin-top: 1rem;
+    max-width: 250px;
+  }
+}

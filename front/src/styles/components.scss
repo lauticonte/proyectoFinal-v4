@@ -1,0 +1,38 @@
+p,
+label,
+input {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.btn-primary,
+.btn-info {
+  color: #ffffff;
+  &:hover,
+  &:focus,
+  &:disabled,
+  &.disabled {
+    color: #ffffff;
+  }
+}
+
+.bg-dark {
+  background-color: #0B111E !important;
+  
+}
+
+.bg-light {
+  background-color: #ffffff !important;
+}
+
+.page-container {
+  margin-top: 56px;
+  min-height: calc(100vh - 112px);
+}
+
+.page-container-login {
+  min-height: calc(100vh - 112px);
+}
+
+.table th {
+  vertical-align: middle;
+}

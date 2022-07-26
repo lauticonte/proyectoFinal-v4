@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "lib": [
+      "ES6",
+      "DOM",
+      "es2019"
+    ],
+    "outDir": "./build",
+    "strict": true,
+    "noImplicitAny": true,
+    "baseUrl": "src",
+    "paths": {
+      "/*": [
+        "/*"
+      ]
+    },
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "plugins": [
+      {
+        "transform": "@zerollup/ts-transform-paths"
+      }
+    ]
+  },
+  "exclude": [
+    "node_modules",
+    "dist",
+    "spec"
+  ]
+}
